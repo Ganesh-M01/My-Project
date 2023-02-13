@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Input Type Tags</title>
+    <style>
+        .form {
+            margin-left: 400px;
+            background-color: rgb(213, 239, 116);
+            height: 560px;
+            width: 300px;
+            border: 8px  dashed rgb(67, 243, 78);
+            padding: 20px;
+            text-align: left ;
+
+        }
+        #Pname,#name,#DOB,#Gender,#Address,#qua,#typeofgamer,#reset,#submit {
+            border: 2px solid red;
+            background-color: lightyellow;
+            text-align: center;
+            text-decoration: dotted;
+        }
+    </style>
+    </head>
+    <h1><strong>INPUT TAGS</strong></h1>
+    <form action="C:\Users\Ganesh\OneDrive\Desktop\HTML\18-1-23 Basics.html" class="form">
+        <label for = "name">Your Name:</label>
+        <input type="text" id="name" name="name" value="Enter Here"><br>
+        <label for="Pname">Parent/Guardian Name:</label>
+        <input type="text" id="Pname" name="Pname"><br>
+        <label for = "DOB">Date od Birth:</label>
+        <input type = "date" id="DOB"><br><br><br>
+        <label for="Gender">Gender</label>&nbsp;&nbsp;&nbsp;
+            <select id="Gender" name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="others">Others</option>
+            </select><br><br>
+            <label for="Address">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea id="Address" name="Address"></textarea><br><br>
+            <label for="qua">ARE YOU GAMER?</label><br><br><input type="radio" id="qua1" name="qua" value="B.Tech/B.E">YES&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="qua" name="qua" value="Diploma">NO<br><br>
+            <p>Choose what kind of gamer you are:</p><br>
+            <input type="checkbox" id="typeofgamer" name="explorer" value="Casual Gamer">
+            <label for="typeofgamer">CASUAL GAMER</label><br>
+            <input type="checkbox" id="explorer" name="gamer" value="gamer">
+            <label for="explorer">EXPLORER</label><BR>
+            <input type="checkbox" id="harcore" name="hardcore">
+            <label for="hardcore">HARDCORE GAMER</label><br>
+            <input type="checkbox" id="rageq">
+            <label for="rageq">RAGE QUITTER</label><br><BR><BR>
+            <input type="checkbox" id="acc" name="acc">&nbsp;&nbsp;&nbsp;Accept our Terms and Conditions<br><br>
+            <input type="checkbox" id="acc" name="acc">&nbsp;&nbsp;&nbsp;Accept cookies to this site.<br><br>
+            <input type="reset" id="reset" name="reset">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="submit" name="submit">
+    </form>
+
+</html>
